@@ -15,10 +15,13 @@
 
 #include "mafPluginVTKDefinitions.h"
 
+#include "mafVME.h"
+
 //----------------------------------------------------------------------------
 // forward declarations :
 //----------------------------------------------------------------------------
-class mafResources::mafVME;
+//this is technically not legal
+//class mafResources::mafVME;
 class vtkRenderer;
 class vtkCoordinate;
 class vtkActor2D;
